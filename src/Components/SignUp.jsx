@@ -52,7 +52,7 @@ function SignUp() {
           setPassword("");
           setImage("");
           alert(data.message);
-          navigate("/signin");
+          navigate("/");
         }
       })
       .catch((err) => {

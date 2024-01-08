@@ -116,7 +116,7 @@ export default function Example() {
 
         <NavLink   onClick={()=>{
              localStorage.clear()
-               navigate('/signin')
+               navigate('/')
 
         }}
              className={({ isActive }) =>
@@ -225,7 +225,7 @@ export default function Example() {
 
         <NavLink  onClick={()=>{
              localStorage.clear()
-               navigate('/signin')
+               navigate('/')
 
         }}
              className={`text-pink-300 text-md font-medium h-12 mt-1 `}

@@ -15,13 +15,10 @@ import UpdateImage from './Components/UpdateImage.jsx'
 import SearchUser from './Components/SearchUser.jsx'
 
 const router= createBrowserRouter ([
-  {
-    path:'/',
-    element: <Navigate to="/signin" />
-  },
+
 
   {
-    path:'/signin',
+    path:'/',
     element:<SignIn />
   },
   {

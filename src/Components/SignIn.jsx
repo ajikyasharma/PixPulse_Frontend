@@ -38,6 +38,8 @@ const navigate= useNavigate()
             .catch(err=>{
                console.log("Error" , err)
             })
+            setEmail("")
+            setPassword("")
     }
 
   return (
